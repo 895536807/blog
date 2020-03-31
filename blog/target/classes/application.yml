@@ -1,0 +1,8 @@
+spring:
+  thymeleaf:
+    mode: HTML
+    cache: false
+  profiles:
+    active: dev  # 指定用开发环境的配置
+
+comment.avatar: /images/avatar.png

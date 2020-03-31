@@ -1,0 +1,91 @@
+2020-03-31 13:55:06.414  INFO 6620 --- [restartedMain] com.lyx.bolg.BolgApplication             : Starting BolgApplication on SKY-20190903YDT with PID 6620 (H:\IdeaProjects\blog\code\blog\target\classes started by Administrator in H:\IdeaProjects\blog\code\blog)
+2020-03-31 13:55:06.429 DEBUG 6620 --- [restartedMain] com.lyx.bolg.BolgApplication             : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-03-31 13:55:06.429  INFO 6620 --- [restartedMain] com.lyx.bolg.BolgApplication             : The following profiles are active: dev
+2020-03-31 13:55:06.554  INFO 6620 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\myjava\maven_repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/myjava/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/myjava/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/myjava/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/myjava/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/myjava/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/myjava/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-03-31 13:55:06.570  INFO 6620 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-31 13:55:06.570  INFO 6620 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-31 13:55:07.460  INFO 6620 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-31 13:55:07.585  INFO 6620 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 111ms. Found 5 JPA repository interfaces.
+2020-03-31 13:55:08.538  INFO 6620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-31 13:55:08.538  INFO 6620 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-31 13:55:08.538  INFO 6620 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-31 13:55:08.663  INFO 6620 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-31 13:55:08.663  INFO 6620 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2093 ms
+2020-03-31 13:55:08.945  INFO 6620 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-31 13:55:09.054  INFO 6620 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-31 13:55:09.210  INFO 6620 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-31 13:55:09.351  INFO 6620 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-31 13:55:09.351  WARN 6620 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-03-31 13:55:10.648  INFO 6620 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-31 13:55:10.663  INFO 6620 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-03-31 13:55:11.788  INFO 6620 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-31 13:55:11.788  INFO 6620 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-31 13:55:11.851  INFO 6620 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-31 13:55:12.694  WARN 6620 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-31 13:55:12.944  INFO 6620 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-31 13:55:13.069  INFO 6620 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-03-31 13:55:13.679  INFO 6620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-31 13:55:13.694  INFO 6620 --- [restartedMain] com.lyx.bolg.BolgApplication             : Started BolgApplication in 8.238 seconds (JVM running for 10.419)
+2020-03-31 13:55:31.283  INFO 6620 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-31 13:55:31.283  INFO 6620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-31 13:55:31.300  INFO 6620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
+2020-03-31 13:55:31.355  INFO 6620 --- [http-nio-8080-exec-1] com.lyx.bolg.aspect.LogAspect            : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.lyx.bolg.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-03-31 13:55:32.672  WARN 6620 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-03-31 13:55:32.690  WARN 6620 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-03-31 13:55:32.698  INFO 6620 --- [http-nio-8080-exec-1] com.lyx.bolg.aspect.LogAspect            : Result : index
+2020-03-31 13:55:35.028  INFO 6620 --- [http-nio-8080-exec-1] com.lyx.bolg.aspect.LogAspect            : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lyx.bolg.controller.IndexController.newblogs', args=[{}]}
+2020-03-31 13:55:35.041  INFO 6620 --- [http-nio-8080-exec-1] com.lyx.bolg.aspect.LogAspect            : Result : _fragments :: newblogList
+2020-03-31 13:55:40.921  INFO 6620 --- [http-nio-8080-exec-4] com.lyx.bolg.aspect.LogAspect            : Request : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.lyx.bolg.controller.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}, -1]}
+2020-03-31 13:55:40.954  INFO 6620 --- [http-nio-8080-exec-4] com.lyx.bolg.aspect.LogAspect            : Result : types
+2020-03-31 13:55:41.668  INFO 6620 --- [http-nio-8080-exec-7] com.lyx.bolg.aspect.LogAspect            : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lyx.bolg.controller.IndexController.newblogs', args=[{}]}
+2020-03-31 13:55:41.678  INFO 6620 --- [http-nio-8080-exec-7] com.lyx.bolg.aspect.LogAspect            : Result : _fragments :: newblogList
+2020-03-31 13:55:45.198  INFO 6620 --- [http-nio-8080-exec-6] com.lyx.bolg.aspect.LogAspect            : Request : {url='http://localhost:8080/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.lyx.bolg.controller.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}, -1]}
+2020-03-31 13:55:45.235  INFO 6620 --- [http-nio-8080-exec-6] com.lyx.bolg.aspect.LogAspect            : Result : tags
+2020-03-31 13:55:46.190  INFO 6620 --- [http-nio-8080-exec-2] com.lyx.bolg.aspect.LogAspect            : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lyx.bolg.controller.IndexController.newblogs', args=[{}]}
+2020-03-31 13:55:46.201  INFO 6620 --- [http-nio-8080-exec-2] com.lyx.bolg.aspect.LogAspect            : Result : _fragments :: newblogList
+2020-03-31 13:55:46.731  INFO 6620 --- [http-nio-8080-exec-5] com.lyx.bolg.aspect.LogAspect            : Request : {url='http://localhost:8080/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.lyx.bolg.controller.ArchiveShowController.archive', args=[{}]}
+2020-03-31 13:55:47.884  INFO 6620 --- [http-nio-8080-exec-10] com.lyx.bolg.aspect.LogAspect            : Request : {url='http://localhost:8080/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.lyx.bolg.controller.ArchiveShowController.archive', args=[{}]}
+2020-03-31 13:55:47.905  INFO 6620 --- [http-nio-8080-exec-5] com.lyx.bolg.aspect.LogAspect            : Result : archives
+2020-03-31 13:55:47.919  INFO 6620 --- [http-nio-8080-exec-10] com.lyx.bolg.aspect.LogAspect            : Result : archives
+2020-03-31 13:55:49.122  INFO 6620 --- [http-nio-8080-exec-2] com.lyx.bolg.aspect.LogAspect            : Request : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.lyx.bolg.controller.AboutShowController.about', args=[{}]}
+2020-03-31 13:55:49.150  INFO 6620 --- [http-nio-8080-exec-2] com.lyx.bolg.aspect.LogAspect            : Result : about
+2020-03-31 13:56:59.872  INFO 6620 --- [http-nio-8080-exec-8] com.lyx.bolg.aspect.LogAspect            : Request : {url='http://localhost:8080/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.lyx.bolg.controller.ArchiveShowController.archive', args=[{}]}
+2020-03-31 13:56:59.894  INFO 6620 --- [http-nio-8080-exec-8] com.lyx.bolg.aspect.LogAspect            : Result : archives
+2020-03-31 13:57:02.499  INFO 6620 --- [http-nio-8080-exec-3] com.lyx.bolg.aspect.LogAspect            : Request : {url='http://localhost:8080/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.lyx.bolg.controller.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}, -1]}
+2020-03-31 13:57:02.517  INFO 6620 --- [http-nio-8080-exec-3] com.lyx.bolg.aspect.LogAspect            : Result : tags
+2020-03-31 13:57:02.981  INFO 6620 --- [http-nio-8080-exec-6] com.lyx.bolg.aspect.LogAspect            : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lyx.bolg.controller.IndexController.newblogs', args=[{}]}
+2020-03-31 13:57:02.986  INFO 6620 --- [http-nio-8080-exec-6] com.lyx.bolg.aspect.LogAspect            : Result : _fragments :: newblogList
+2020-03-31 13:57:04.238  INFO 6620 --- [http-nio-8080-exec-5] com.lyx.bolg.aspect.LogAspect            : Request : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.lyx.bolg.controller.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}, -1]}
+2020-03-31 13:57:04.252  INFO 6620 --- [http-nio-8080-exec-5] com.lyx.bolg.aspect.LogAspect            : Result : types
+2020-03-31 13:57:04.732  INFO 6620 --- [http-nio-8080-exec-4] com.lyx.bolg.aspect.LogAspect            : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lyx.bolg.controller.IndexController.newblogs', args=[{}]}
+2020-03-31 13:57:04.745  INFO 6620 --- [http-nio-8080-exec-4] com.lyx.bolg.aspect.LogAspect            : Result : _fragments :: newblogList
+2020-03-31 13:57:05.419  INFO 6620 --- [http-nio-8080-exec-10] com.lyx.bolg.aspect.LogAspect            : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.lyx.bolg.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-03-31 13:57:05.452  INFO 6620 --- [http-nio-8080-exec-10] com.lyx.bolg.aspect.LogAspect            : Result : index
+2020-03-31 13:57:06.430  INFO 6620 --- [http-nio-8080-exec-7] com.lyx.bolg.aspect.LogAspect            : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lyx.bolg.controller.IndexController.newblogs', args=[{}]}
+2020-03-31 13:57:06.443  INFO 6620 --- [http-nio-8080-exec-7] com.lyx.bolg.aspect.LogAspect            : Result : _fragments :: newblogList
+2020-03-31 13:58:07.645  INFO 6620 --- [http-nio-8080-exec-10] com.lyx.bolg.aspect.LogAspect            : Request : {url='http://localhost:8080/blog/15', ip='0:0:0:0:0:0:0:1', classMethod='com.lyx.bolg.controller.IndexController.blog', args=[15, {}]}
+2020-03-31 13:58:08.863  INFO 6620 --- [http-nio-8080-exec-10] com.lyx.bolg.aspect.LogAspect            : Result : blog
+2020-03-31 13:58:09.893  INFO 6620 --- [http-nio-8080-exec-5] com.lyx.bolg.aspect.LogAspect            : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lyx.bolg.controller.IndexController.newblogs', args=[{}]}
+2020-03-31 13:58:09.902  INFO 6620 --- [http-nio-8080-exec-5] com.lyx.bolg.aspect.LogAspect            : Result : _fragments :: newblogList
+2020-03-31 13:58:10.137  INFO 6620 --- [http-nio-8080-exec-10] com.lyx.bolg.aspect.LogAspect            : Request : {url='http://localhost:8080/comments/15', ip='0:0:0:0:0:0:0:1', classMethod='com.lyx.bolg.controller.CommentController.comments', args=[15, {}]}
+2020-03-31 13:58:10.204  INFO 6620 --- [http-nio-8080-exec-10] com.lyx.bolg.aspect.LogAspect            : Result : blog :: commentList
+2020-03-31 14:01:07.350  INFO 6620 --- [http-nio-8080-exec-6] com.lyx.bolg.aspect.LogAspect            : Request : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.lyx.bolg.controller.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}, -1]}
+2020-03-31 14:01:07.368  INFO 6620 --- [http-nio-8080-exec-6] com.lyx.bolg.aspect.LogAspect            : Result : types
+2020-03-31 14:01:08.068  INFO 6620 --- [http-nio-8080-exec-7] com.lyx.bolg.aspect.LogAspect            : Request : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.lyx.bolg.controller.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}, -1]}
+2020-03-31 14:01:08.076  INFO 6620 --- [http-nio-8080-exec-7] com.lyx.bolg.aspect.LogAspect            : Result : types
+2020-03-31 14:01:09.601  INFO 6620 --- [http-nio-8080-exec-5] com.lyx.bolg.aspect.LogAspect            : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lyx.bolg.controller.IndexController.newblogs', args=[{}]}
+2020-03-31 14:01:09.611  INFO 6620 --- [http-nio-8080-exec-5] com.lyx.bolg.aspect.LogAspect            : Result : _fragments :: newblogList
+2020-03-31 14:01:10.166  INFO 6620 --- [http-nio-8080-exec-10] com.lyx.bolg.aspect.LogAspect            : Request : {url='http://localhost:8080/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.lyx.bolg.controller.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}, -1]}
+2020-03-31 14:01:10.185  INFO 6620 --- [http-nio-8080-exec-10] com.lyx.bolg.aspect.LogAspect            : Result : tags
+2020-03-31 14:01:11.564  INFO 6620 --- [http-nio-8080-exec-9] com.lyx.bolg.aspect.LogAspect            : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lyx.bolg.controller.IndexController.newblogs', args=[{}]}
+2020-03-31 14:01:11.571  INFO 6620 --- [http-nio-8080-exec-9] com.lyx.bolg.aspect.LogAspect            : Result : _fragments :: newblogList
+2020-03-31 14:01:16.127  INFO 6620 --- [http-nio-8080-exec-1] com.lyx.bolg.aspect.LogAspect            : Request : {url='http://localhost:8080/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.lyx.bolg.controller.ArchiveShowController.archive', args=[{}]}
+2020-03-31 14:01:16.148  INFO 6620 --- [http-nio-8080-exec-1] com.lyx.bolg.aspect.LogAspect            : Result : archives
+2020-03-31 14:01:17.683  INFO 6620 --- [http-nio-8080-exec-7] com.lyx.bolg.aspect.LogAspect            : Request : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.lyx.bolg.controller.AboutShowController.about', args=[{}]}
+2020-03-31 14:01:17.693  INFO 6620 --- [http-nio-8080-exec-7] com.lyx.bolg.aspect.LogAspect            : Result : about
+2020-03-31 14:01:21.978  INFO 6620 --- [http-nio-8080-exec-10] com.lyx.bolg.aspect.LogAspect            : Request : {url='http://localhost:8080/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.lyx.bolg.controller.ArchiveShowController.archive', args=[{}]}
+2020-03-31 14:01:21.993  INFO 6620 --- [http-nio-8080-exec-10] com.lyx.bolg.aspect.LogAspect            : Result : archives
+2020-03-31 14:01:23.526  INFO 6620 --- [http-nio-8080-exec-8] com.lyx.bolg.aspect.LogAspect            : Request : {url='http://localhost:8080/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.lyx.bolg.controller.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}, -1]}
+2020-03-31 14:01:23.550  INFO 6620 --- [http-nio-8080-exec-8] com.lyx.bolg.aspect.LogAspect            : Result : tags
+2020-03-31 14:01:24.385  INFO 6620 --- [http-nio-8080-exec-10] com.lyx.bolg.aspect.LogAspect            : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lyx.bolg.controller.IndexController.newblogs', args=[{}]}
+2020-03-31 14:01:24.391  INFO 6620 --- [http-nio-8080-exec-10] com.lyx.bolg.aspect.LogAspect            : Result : _fragments :: newblogList

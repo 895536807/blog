@@ -1,0 +1,29 @@
+package com.lyx.bolg.service;
+
+import com.lyx.bolg.pojo.Tag;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+
+import java.util.List;
+
+/**
+ * Created by liuyixiang  2020-03-19 19:02
+ */
+public interface TagService {
+
+    Tag saveTag(Tag tag);
+
+    Tag getTag(Long id);
+    Page<Tag> listTag(Pageable pageable);
+    Tag updateTag(Long id,Tag tag);
+    void deleteTag(Long id);
+    Tag getTagByName(String name);
+
+    List<Tag> listTag();
+
+    List<Tag> listTag(String ids);
+
+    List<Tag> listTagTop(Integer size);
+
+
+}
